@@ -105,6 +105,39 @@
         .animate-delay-100 { animation-delay: 0.1s; }
         .animate-delay-200 { animation-delay: 0.2s; }
         .animate-delay-300 { animation-delay: 0.3s; }
+
+        /* Marketing Insight Boxes */
+        .marketing-insight {
+            background: rgba(198, 163, 85, 0.15);
+            border: 1px solid #C6A355;
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            position: relative;
+            backdrop-filter: blur(8px);
+            z-index: 20;
+            max-width: 450px;
+        }
+        .marketing-insight::before {
+            content: "💡 INSIGHT DE CONVERSÃO";
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            background: #C6A355;
+            color: #0A0F1E;
+            font-size: 9px;
+            font-weight: 900;
+            padding: 2px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.1em;
+        }
+        .marketing-insight p {
+            color: #D4B876 !important;
+            font-size: 13px !important;
+            line-height: 1.5 !important;
+            margin: 0 !important;
+            font-weight: 500 !important;
+        }
     </style>
 </head>
 <body class="bg-background text-white font-sans overflow-x-hidden">
@@ -181,6 +214,11 @@
                                 Áreas de Atuação
                             </a>
                         </div>
+
+                        <!-- Insight Box -->
+                        <div class="marketing-insight animate-fade-in animate-delay-300">
+                            <p><strong>Autoridade Instantânea:</strong> O contraste do dourado sobre o dark mode comunica luxo e alto padrão. O cliente para de questionar o preço e começa a desejar a exclusividade de ser defendido por uma elite.</p>
+                        </div>
                     </div>
                 </div>
 
@@ -217,6 +255,11 @@
                 <p class="text-gray-400 text-lg max-w-sm leading-relaxed lg:text-right font-medium">
                     Foco total em resultados onde a complexidade exige expertise superior e estratégia cirúrgica.
                 </p>
+            </div>
+
+            <!-- Insight Box -->
+            <div class="marketing-insight mb-16">
+                <p><strong>Segmentação de Alto Valor:</strong> Ao invés de uma lista genérica de serviços, usamos "Áreas de Dominância". Isso posiciona o advogado como um especialista em casos complexos, permitindo cobrar honorários premium por ser visto como a única solução para problemas difíceis.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
@@ -338,9 +381,14 @@
                 <p class="text-gray-400 text-lg max-w-2xl mx-auto">
                     A advocacia tradicional é lenta e burocrática. Meu método é focado em inteligência estratégica e velocidade de resolução.
                 </p>
-            </div>
+                </div>
 
-            <div class="grid lg:grid-cols-3 gap-12 lg:gap-8">
+                <!-- Insight Box -->
+                <div class="marketing-insight mx-auto mb-16">
+                <p><strong>Justificativa de Honorários:</strong> Ao dar nome ao seu método (ex: "O Strike"), você transforma seu serviço jurídico em um produto exclusivo. O cliente entende que está pagando por uma metodologia proprietária e vencedora, e não apenas por "horas de trabalho".</p>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-12 lg:gap-8">
                 <!-- Step 1 -->
                 <div class="relative group">
                     <div class="mb-8 relative inline-block">
@@ -467,6 +515,11 @@
                         <span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest">SIGILO ABSOLUTO</span>
                     </div>
                 </div>
+            </div>
+
+            <!-- Insight Box -->
+            <div class="marketing-insight mb-16">
+                <p><strong>Gatilho de Prova Social de Elite:</strong> Números grandes (R$ 500M+) e depoimentos de CEOs criam o efeito de "Manada de Elite". O novo cliente sente que está em segurança ao contratar um profissional que já protegeu fortunas, removendo a objeção do medo.</p>
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
@@ -635,6 +688,11 @@
                     <p class="text-gray-400 text-lg leading-relaxed mb-12 max-w-sm">
                         Devido à alta demanda e ao compromisso com a excelência, as vagas para novos casos são limitadas. Garanta sua análise agora.
                     </p>
+
+                    <!-- Insight Box -->
+                    <div class="marketing-insight mb-12">
+                        <p><strong>Qualificação e Escassez:</strong> O formulário não é apenas um contato, é um filtro. Ao pedir os detalhes do "Caso", o advogado já inicia a conversa com autoridade. A menção às "vagas limitadas" ativa o gatilho da escassez, forçando o cliente a agir imediatamente.</p>
+                    </div>
 
                     <div class="space-y-8">
                         <div class="flex items-center gap-6">
